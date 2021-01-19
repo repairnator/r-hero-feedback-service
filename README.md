@@ -6,6 +6,8 @@ Upon request, it connects to an Azure storage account, and stores the received d
 
 ## Dependencies
 
+An [Azure storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal) must be set up.
+
 Install dependencies with `pip -i requirements.txt`
 
 ## Run
