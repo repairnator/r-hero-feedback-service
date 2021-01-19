@@ -1,0 +1,5 @@
+Flask==0.12.2
+waitress==1.4.3
+WTForms==2.3.3
+Flask_WTF==0.14.3
+azure_storage==0.37.0

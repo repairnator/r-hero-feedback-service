@@ -1,0 +1,16 @@
+<html>
+    <head> 
+    <title>R-Hero feedback links</title>
+    </head>
+    <body>
+    R-Hero:
+    Submitting feedback for project: {{ form.slug_field.data }} 
+    <form method="POST" action="{{ url_for('handle_post') }}"> 
+        {{ form.slug_field }}
+        {{ form.buildid_field }}
+        {{ form.value_field }}
+        {{ form.recaptcha }}
+        <input type="submit" value="submit">
+    </form>
+    </body>
+</html>   
